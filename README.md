@@ -57,6 +57,15 @@ dotnet sln list
 # Restore packages
 dotnet restore
 
+# Build the solution
+dotnet build
+
+# Add a reference from API to Infrastructure
+dotnet add src/API/API.csproj reference src/Infrastructure/Infrastructure.csproj
+
+# Add a reference from Infrastructure to Core
+dotnet add src/Infrastructure/Infrastructure.csproj reference src/Core/Core.csproj
+
 # Run the application
 dotnet run --project src/API
 ```
