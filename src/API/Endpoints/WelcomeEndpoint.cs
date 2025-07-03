@@ -33,7 +33,7 @@ public static class WelcomeEndpoint
     private static Ok<WelcomeResponse> GetWelcomeMessage()
     {
         var response = new WelcomeResponse(
-            Message: "Welcome to Dating App API",
+            Message: "Welcome to SkiNet API",
             Timestamp: DateTime.UtcNow,
             RequestId: Guid.NewGuid());
 
