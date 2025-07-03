@@ -67,5 +67,5 @@ dotnet add src/API/API.csproj reference src/Infrastructure/Infrastructure.csproj
 dotnet add src/Infrastructure/Infrastructure.csproj reference src/Core/Core.csproj
 
 # Run the application
-dotnet run --project src/API
+dotnet watch --project .\src\API\
 ```
