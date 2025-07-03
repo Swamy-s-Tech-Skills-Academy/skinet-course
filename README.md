@@ -30,6 +30,7 @@ This app is built using .Net 9 and Angular 20
 ```powershell
 # Check .NET version
 dotnet --info
+dontnet -h
 
 # List available templates
 dotnet new list
