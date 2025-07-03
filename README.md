@@ -43,6 +43,10 @@ dotnet new sln
 dotnet new webapi -controllers -n API -f net9.0 -o src/API
 dotnet sln add src/API/
 
+# Create a Class Library project for Core
+dotnet new classlib -n Core -f net9.0 -o src/Core
+dotnet sln add src/Core/
+
 # List solution projects
 dotnet sln list
 
