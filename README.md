@@ -47,6 +47,10 @@ dotnet sln add src/API/
 dotnet new classlib -n Core -f net9.0 -o src/Core
 dotnet sln add src/Core/
 
+# Create a Class Library project for Infrastructure
+dotnet new classlib -n Infrastructure -f net9.0 -o src/Infrastructure
+dotnet sln add src/Infrastructure/
+
 # List solution projects
 dotnet sln list
 
